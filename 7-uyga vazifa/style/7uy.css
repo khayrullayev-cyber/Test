@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    background-color: #3157a9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .content {
+    width: 800px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.conteiner .content .left {
+    width: 60%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.conteiner .content .left .img {
+    width: 60%;
+    height: 65%;
+    border-radius: 40px;
+}
+
+.conteiner .content .left .img img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+.conteiner .content .left h1{
+    font-size: 20px;
+}
+
+
+
+.conteiner .content .left .sizes {
+    border: 1px solid #000;
+    width: 90%;
+    height: 20%;
+    margin-bottom: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.conteiner .content .left .size {
+    border: 1px solid #3157a9;
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner .content .right{
+    width: 40%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+
+.conteiner .content .right .top {
+    color: #3157a9;
+}
+
+.conteiner .content .right .name{
+    font-size: 18px; 
+}
+.conteiner .content .right .cost {
+    font-size: 25px;
+    color: #3157a9;
+}
+
+.conteiner .content .right .wiki {
+    font-size: 13px;
+    height: 55%;
+}
+
+.conteiner .content .right a {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 20px;
+    background-color: #1a3ddb;
+    padding: 19px;
+    color: #fff;
+}
